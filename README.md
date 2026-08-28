@@ -36,3 +36,5 @@ Python (pandas), Excel, Power BI
 
 - `analysis.py` — full analysis code
 - `olist_business_findings_report.xlsx` — findings summary with verifiable Excel formulas
+- `case_study_olist.md` — full case study write-up
+- `olist-dashboard.pbix` — full Power BI dashboard file
