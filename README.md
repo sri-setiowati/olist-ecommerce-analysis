@@ -1,5 +1,5 @@
 # Olist E-commerce Data Analysis
-
+   ![Dashboard preview](dashboard-preview.png)
 Data analysis project using the Olist Brazilian E-commerce Public Dataset (Kaggle), looking at where delivery and pricing issues concentrate across Brazil's states.
 
 ## Problem
