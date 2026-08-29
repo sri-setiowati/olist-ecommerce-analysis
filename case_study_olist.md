@@ -12,4 +12,4 @@ Put together, these two findings point at the same handful of states. That's the
 
 I built this as a self-contained project: the full analysis in Python (pandas), a dashboard in Power BI to make the pattern visible at a glance, and an Excel report with the underlying calculations left as live formulas rather than static numbers, so anyone reviewing it can check the math rather than take my word for it.
 
-Full code and the dashboard are on GitHub: [add your repo link here]
+Full code and the dashboard are on GitHub: github.com/sri-setiowati/olist-ecommerce-analysis
