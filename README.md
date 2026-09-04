@@ -15,22 +15,27 @@ Olist ships orders across all of Brazil. Two open questions: are delivery delays
 
 Full code: [`analysis.py`](analysis.py)
 
-## Findings
+## Key Findings
 
-**1. Delivery delays concentrate in a handful of states.** The national late-delivery rate is 6.8%. Five states, Alagoas, Maranhao, Sergipe, Piaui, and Ceara, run two to three times above that average. Alagoas is highest at 21.4%. Orders that do arrive late are 10.6 days behind on average.
+- **Customer Impact:** Late deliveries cut average review scores from 4.29 to 2.27 (-2.02 pts);
+  the share of 1-2 star reviews jumped from 9.3% to 62.4%.
+- **Geographic Hotspot:** Rio de Janeiro (RJ) had 1,495 delayed orders — 12.1% of its 12,353
+  orders, the highest absolute delay volume of any state.
+- **Freight Inefficiency:** Electronics shipping costs averaged 29.1% of product price
+  (n=2,767 items), notably higher than most other high-volume categories.
 
-**2. Freight costs fall unevenly across states.** Freight runs 16.6% of item price nationally. In Maranhao, Rondonia, and Piaui, that ratio climbs to 24-26%, nearly double the 13.8% seen in Sao Paulo, the largest market with 47,449 items.
+## Business Recommendations
 
-Full write-up with tables and formulas: [`olist_business_findings_report.xlsx`](olist_business_findings_report.xlsx)
-
-## Recommendations
-
-- Start logistics and carrier reviews with the five states carrying the highest delay rate, and send customers there a proactive notice when a delivery estimate is at risk
-- Look at regional distribution hubs or renegotiated carrier rates for the states with the highest freight burden, so prices stay competitive there without cutting into margin
+1. Prioritize on-time delivery as the top lever for customer satisfaction — it is the
+   strongest predictor of poor reviews found in this analysis.
+2. Audit shipping routes/carrier performance specifically for Rio de Janeiro given its
+   outsized absolute impact on delayed orders.
+3. Review packaging and freight partnerships for the electronics category to reduce its
+   disproportionate shipping-cost-to-price ratio.
 
 ## Tools
 
-Python (pandas), Excel, Power BI
+Python (pandas), SQL (DuckDB), Excel, Power BI
 
 ## Files
 
