@@ -43,3 +43,4 @@ Python (pandas), SQL (DuckDB), Excel, Power BI
 - `olist_business_findings_report.xlsx` — findings summary with verifiable Excel formulas
 - `case_study_olist.md` — full case study write-up
 - `olist-dashboard.pbix` — full Power BI dashboard file
+- `sql_analysis.py` — SQL queries (DuckDB) used for the delivery delay and freight cost analysis
